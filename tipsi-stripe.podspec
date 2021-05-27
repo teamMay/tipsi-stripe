@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/tipsi/tipsi-stripe', :tag => s.version }
+  s.source         = { :git => 'https://github.com/teamMay/tipsi-stripe', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '11.0'
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source_files   = 'ios/TPSStripe/**/*.{h,m}'
 
   s.dependency 'React'
-  s.dependency 'Stripe', '>= 21.3.1'
+  s.dependency 'Stripe', '>= 21.5.1'
 end
